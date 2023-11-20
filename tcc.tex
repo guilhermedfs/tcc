@@ -1,0 +1,45 @@
+\input{fixos/pacotes}
+\input{fixos/comandos}
+\usepackage{fixos/customizacoes}
+\usepackage{amsmath}
+
+\input{editaveis/informacoes}
+\input{fixos/informacoes}
+\input{fixos/setup}
+
+\begin{document}
+
+\frenchspacing 
+\imprimircapa
+\imprimirfolhaderosto*
+
+\input{fixos/fichaCatalografica}
+\input{fixos/folhaDeAprovacao}
+% \input{editaveis/dedicatoria}
+\input{editaveis/agradecimentos}
+% \input{editaveis/epigrafe}
+\input{editaveis/resumo}
+\input{editaveis/abstract}
+\input{fixos/listasAutomaticas}
+\input{editaveis/abreviaturas}
+\input{editaveis/simbolos}
+\input{fixos/indiceAutomatico}
+
+\textual
+
+\input{editaveis/introducao}
+\input{editaveis/referencial}
+\input{editaveis/metodologia}
+\input{editaveis/resultados_esperados}
+
+\bookmarksetup{startatroot} 
+
+\postextual
+
+\bibliography{bibliografia} 
+% \input{editaveis/apendices}
+% \input{editaveis/anexos}
+\printindex
+
+\end{document}
+
